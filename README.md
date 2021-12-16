@@ -52,3 +52,9 @@ expressed by 0.
 - data exploration
 - data processing/cleaning
 - recommendation system developer
+
+## Methods Used
+
+## Results
+
+## Conclusions
