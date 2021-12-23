@@ -1,4 +1,6 @@
 # Book-Recommender-System
+![image](https://user-images.githubusercontent.com/88626478/147267701-b3d5fa41-6c69-4089-860f-16e0b10fef2f.png)
+
 #### -- Project Status: [Completed]
 
 ## Objective<br>
