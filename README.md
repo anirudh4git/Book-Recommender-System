@@ -1,7 +1,7 @@
 # Book-Recommender-System
 #### -- Project Status: [Completed]
 
-## Objective<br
+## Objective<br>
 The main objective is to create a book recommendation system for users. Recommender systems are really critical in some industries as they can generate a huge
 amount of income when they are efficient or also be a way to stand out significantly from competitors. 
 
@@ -84,11 +84,11 @@ Singular Value Decomposition (SVD)
 The main characteristics of user-user and item-item approaches is that they use only information from the user-item interaction matrix and they assume no model to produce new recommendations.
 
 
-User-User:
+# User-User:
 
 In order to make a new recommendation to a user, the user-user method roughly tries to identify users with the most similar “interactions profile” (nearest neighbours) in order to suggest items that are the most popular among these neighbours (and that are “new” to our user). This method is said to be “user-centred” as it represents users based on their interactions with items and evaluates distances between users.
 
-Item-Item:
+# Item-Item:
 
 To make a new recommendation to a user, the idea of the item-item method is to find items similar to the ones the user already “positively” interacted with. Two items are considered to be similar if most of the users that have interacted with both of them did it in a similar way. This method is said to be “item-centred” as it represents items based on interactions users had with them and evaluates distances between those items.
 
