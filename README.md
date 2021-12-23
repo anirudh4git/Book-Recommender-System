@@ -70,6 +70,9 @@ It is considered to be one of the very smart recommender systems that work on th
  
 The similarity is not restricted to the taste of the user, moreover there can be consideration of similarity between different items also. The system will give more efficient recommendations if we have a large volume of information about users and items. There are various types of collaborative filtering techniques.
 
+![image](https://user-images.githubusercontent.com/88626478/147267186-e1033461-bdd2-445e-8426-2eb8f38f3778.png)
+
+
 ### Model Based Approach:
 
 Model-based recommendation systems involve building a model based on the dataset of ratings. In other words, we extract some information from the dataset, and use that as a "model" to make recommendations without having to use the complete dataset every time. This approach potentially offers the benefits of both speed and scalability.
