@@ -70,25 +70,25 @@ It is considered to be one of the very smart recommender systems that work on th
  
 The similarity is not restricted to the taste of the user, moreover there can be consideration of similarity between different items also. The system will give more efficient recommendations if we have a large volume of information about users and items. There are various types of collaborative filtering techniques.
 
-## Model Based Approach:
+### Model Based Approach:
 
 Model-based recommendation systems involve building a model based on the dataset of ratings. In other words, we extract some information from the dataset, and use that as a "model" to make recommendations without having to use the complete dataset every time. This approach potentially offers the benefits of both speed and scalability.
 
 Model based collaborative approaches only rely on user-item interactions information and assume a latent model supposed to explain these interactions. For example, matrix factorisation algorithms consists in decomposing the huge and sparse user-item interaction matrix into a product of two smaller and dense matrices: a user-factor matrix (containing users representations) that multiplies a factor-item matrix (containing items representations).
 Matrix Factorization can be of two types :
-Non-Negative Matrix Factorization (NMF)
-Singular Value Decomposition (SVD)
+##### Non-Negative Matrix Factorization (NMF)
+##### Singular Value Decomposition (SVD)
 
-## Memory Based Approach:
+### Memory Based Approach:
 
 The main characteristics of user-user and item-item approaches is that they use only information from the user-item interaction matrix and they assume no model to produce new recommendations.
 
 
-# User-User:
+#### User-User:
 
 In order to make a new recommendation to a user, the user-user method roughly tries to identify users with the most similar “interactions profile” (nearest neighbours) in order to suggest items that are the most popular among these neighbours (and that are “new” to our user). This method is said to be “user-centred” as it represents users based on their interactions with items and evaluates distances between users.
 
-# Item-Item:
+#### Item-Item:
 
 To make a new recommendation to a user, the idea of the item-item method is to find items similar to the ones the user already “positively” interacted with. Two items are considered to be similar if most of the users that have interacted with both of them did it in a similar way. This method is said to be “item-centred” as it represents items based on interactions users had with them and evaluates distances between those items.
 
